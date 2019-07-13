@@ -19,7 +19,7 @@
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/about_alc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,19 +27,19 @@
         tools:text="welcome" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/about_alc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="32dp"
         android:text="ABOUT ALC"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/my_profile"
         app:layout_constraintEnd_toEndOf="@+id/welcome"
         app:layout_constraintStart_toStartOf="@+id/welcome"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/my_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -47,6 +47,6 @@
         android:text="MY PROFILE"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/about_alc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
